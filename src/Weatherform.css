@@ -1,0 +1,47 @@
+:root {
+  --main-color: #fffafb;
+  --accent-color: purple;
+  --primary-color: #a893e0;
+  --secondary-color: #e9a3e9;
+}
+.SearchForm {
+  padding-block: 30px 20px;
+  margin: 20px;
+}
+
+input[type="search"] {
+  font-size: 25px;
+  padding-left: 15px;
+  border: none;
+}
+
+input[type="search"]::placeholder {
+  opacity: 0.8;
+}
+
+button[type="submit"] {
+  color: #fff;
+  font-size: 22px;
+  margin: 5px;
+  border: none;
+}
+
+#search-btn {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 9px;
+}
+
+#search-btn:hover {
+  color: var(--accent-color);
+}
+
+#current-btn {
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 9px;
+}
+
+#current-btn:hover {
+  color: var(--accent-color);
+}
