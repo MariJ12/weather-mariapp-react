@@ -1,0 +1,17 @@
+.Overview {
+  text-align: left;
+  margin: 50px;
+}
+#city {
+  font-size: 4rem;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+#date {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}

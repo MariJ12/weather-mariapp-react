@@ -4,7 +4,7 @@ import Cityoverview from "./Cityoverview";
 
 export default function Weather() {
   return (
-    <div>
+    <div className="weather-app px-5 rounded-4 shadow-lg">
       <Weatherform />
       <Cityoverview />
     </div>

@@ -17,6 +17,11 @@ input[type="search"] {
 
 input[type="search"]::placeholder {
   opacity: 0.8;
+  width: 100%;
+}
+input,
+textarea [type="search"] {
+  outline: none;
 }
 
 button[type="submit"] {
