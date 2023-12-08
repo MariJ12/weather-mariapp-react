@@ -8,6 +8,10 @@ function App() {
     <div className="App">
       <div className="App-container">
         <Weather />
+        <footer>
+          <a href="https://github.com/MariJ12/weather-mariapp-react">Git Hub</a>
+          <a href=""></a>
+        </footer>
       </div>
     </div>
   );
