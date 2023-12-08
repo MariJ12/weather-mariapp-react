@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
-import Cityoverview from "./Cityoverview";
 
 function App() {
   return (
