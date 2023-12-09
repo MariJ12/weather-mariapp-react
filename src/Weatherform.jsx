@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Weatherform.css";
+import axios from "axios";
 
 export default function Weatherform() {
   const [city, showCity] = useState("");
