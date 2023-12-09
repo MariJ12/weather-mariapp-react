@@ -8,6 +8,7 @@ function App() {
         <Weather />
         <footer>
           <a href="https://github.com/MariJ12/weather-mariapp-react">Git Hub</a>
+          <a href=""></a>
         </footer>
       </div>
     </div>
